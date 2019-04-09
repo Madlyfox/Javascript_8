@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html>
+
+<head>
+    <title>Exercice_8</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <form>
+        <label for="age">Quel age avez vous ? : </label><input type="text" id="age" name="age" /><br />
+        <button id="submit" name="submit" onclick="get2()">Valider</button>
+    </form>
+    <script type="text/javascript">
+    function get2() {
+        if (age.value >= 18) {
+            alert ("Vous êtes majeur");
+        } else {
+            alert ("Vous êtes mineur");
+        }
+    }
+    </script>
+</body>
+
+</html>
